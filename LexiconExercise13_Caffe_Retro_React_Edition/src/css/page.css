@@ -1,0 +1,38 @@
+h1 {
+  color: darkred;
+  font-size: 3.5rem;
+  text-transform: capitalize;
+}
+
+.page {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poiret One", sans-serif;
+  color: rgba(255, 255, 255, 0.911);
+  gap: 2rem;
+}
+
+.suggestion,
+.menu {
+  width: 70%;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+section#hot {
+  background-image: url("../Assets/hot.jpg");
+}
+
+section#juicy {
+  background-image: url("../Assets/juicy.jpg");
+}
+
+section#cozy {
+  background-image: url("../Assets/cosy.jpg");
+}
