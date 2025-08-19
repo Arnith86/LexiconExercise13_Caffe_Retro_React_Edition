@@ -20,7 +20,7 @@ h1 {
 .suggestion,
 .menu {
   width: 70%;
-  min-width: 100px;
+  min-width: 280px;
   display: flex;
   flex-direction: column;
 }
