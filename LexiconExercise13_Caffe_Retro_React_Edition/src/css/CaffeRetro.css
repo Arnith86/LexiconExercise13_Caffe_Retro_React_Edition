@@ -1,6 +1,8 @@
 @import url(navbar.css);
 @import url(page.css);
 @import url(Suggestions.css);
+@import url(menu.css);
+@import url(responsive.css);
 
 * {
   margin: 0;
@@ -20,93 +22,4 @@ body {
 h1,
 .nav-bar a {
   font-family: "spirax", sans-serif;
-}
-
-.menu {
-  background-color: rgba(0, 0, 0, 0.795);
-  padding: 1.1rem;
-  gap: 0.15rem;
-}
-
-.menu-option {
-  display: flex;
-  justify-content: space-between;
-}
-
-p.desktop-line {
-  display: none;
-}
-
-.mobile-line {
-  display: block;
-}
-
-@media screen and (min-width: 768px) {
-  .nav-bar {
-    gap: 4rem;
-  }
-
-  .nav-bar a {
-    font-size: 2rem;
-  }
-
-  h1 {
-    font-size: 5rem;
-  }
-
-  .suggestion .mobile-line {
-    left: -4.5rem;
-  }
-
-  .suggestion .desktop-line {
-    left: 4.5rem;
-  }
-
-  .suggestion .mobile-line,
-  .suggestion .desktop-line {
-    position: relative;
-    font-size: 1.2rem;
-    padding: 1rem;
-  }
-
-  .menu,
-  .suggestion {
-    width: 55%;
-    max-width: 640px;
-  }
-
-  .menu {
-    padding: 1rem 2.7rem;
-  }
-
-  p.desktop-line {
-    display: block;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .nav-bar {
-    height: 5rem;
-    gap: 6rem;
-  }
-
-  .nav-bar a {
-    font-size: 3rem;
-  }
-
-  h1 {
-    font-size: 7rem;
-  }
-
-  .menu,
-  .suggestion {
-    width: 65%;
-    max-width: 720px;
-  }
-
-  .suggestion .mobile-line,
-  .suggestion .desktop-line,
-  .menu {
-    font-size: 1.4rem;
-  }
 }
